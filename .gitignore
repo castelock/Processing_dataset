@@ -127,3 +127,42 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+###### IMAGES ######
+
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# JPEG 2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
+
+Graphics Interchange Format
+*.gif
+
+# RAW
+*.raw
+
+# Portable Network Graphics
+*.png
+
+# Tagged Image File Format
+*.tiff
+*.tif
+
+# Scalable Vector Graphics
+*.svg
+*.svgz
+
+# BMP
+*.bmp
+*.dib
