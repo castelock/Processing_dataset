@@ -21,27 +21,7 @@ def rename_files(imagePaths, variable):
         # Rename the file
         os.rename(imagePath, new_path)
 
-
-skip = True
-# Checking the folder of gestures that are individually
-"""if not os.listdir("Single") or skip:
-    print("Directory is empty or the user skipped this process")
-else:
-    print("[INFO] Loading the images when they are separately")
-    imagePaths = list(paths.list_images("Single"))
-    # Iterate the image paths
-    rename_files(imagePaths, 10, "single")
-
-
-# Checking the folder with gestures when they are merged
-if not os.listdir("All"):
-    print("Directory is empty")
-else:
-    print("[INFO] Loading the images when they are all together")
-    imagePaths = list(paths.list_images("All"))
-    # Iterate the image paths
-    rename_files(imagePaths, 0, "all")"""
-
+# Rename the images
 if not os.listdir("Gestures"):
     print("Directory is empty")
 else:
@@ -50,6 +30,6 @@ else:
     # Sort files
     imagePaths_sorted = sorted(imagePaths)
     # Iterate the image paths
-    rename_files(imagePaths, 0, "all")
+    rename_files(imagePaths_sorted, 0)
 
 
