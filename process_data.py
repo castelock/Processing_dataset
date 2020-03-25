@@ -21,6 +21,7 @@ def rename_files(imagePaths, variable):
         # Rename the file
         os.rename(imagePath, new_path)
 
+
 # Rename the images
 if not os.listdir("Gestures"):
     print("Directory is empty")
