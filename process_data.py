@@ -23,10 +23,11 @@ def rename_files(imagePaths, variable):
 
 
 # Rename the images
+# YOU CAN PUT THE FOLDERS WITH THE IMAGES THEY ARE RENAMED AUTOMATICALLY
 if not os.listdir("Gestures"):
     print("Directory is empty")
 else:
-    print("[INFO] Loading the images")
+    print("Loading the images")
     imagePaths = list(paths.list_images("Gestures"))
     # Sort files
     imagePaths_sorted = sorted(imagePaths)
