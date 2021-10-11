@@ -33,5 +33,6 @@ else:
     imagePaths_sorted = sorted(imagePaths)
     # Iterate the image paths
     rename_files(imagePaths_sorted, 0)
+    print("Sucessfully finished")
 
 
