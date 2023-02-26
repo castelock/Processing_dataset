@@ -50,7 +50,7 @@ def check_folder_name(folder_name):
     return found
 
 # Main flow
-if not os.listdir("Gestures"):
+if not os.listdir("Curves_experiments"):
     print("Directory is empty")
 else:
     print("Loading the images")
